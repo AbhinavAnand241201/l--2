@@ -22,7 +22,7 @@ export default function Home() {
             <div className="w-10 h-10 rounded-xl overflow-hidden">
               <Image 
                 src="/gng.png" 
-                alt="GPTCH Wallet Logo" 
+                alt="GNG Wallet Logo" 
                 width={40} 
                 height={40}
                 className="w-full h-full object-cover"
@@ -46,7 +46,7 @@ export default function Home() {
               <div className="w-24 h-24 rounded-2xl overflow-hidden mx-auto mb-8 minimal-glow">
                 <Image 
                   src="/gng.png" 
-                  alt="GPTCH Wallet Logo" 
+                  alt="GNG Wallet Logo" 
                   width={96} 
                   height={96}
                   className="w-full h-full object-cover"
@@ -139,15 +139,15 @@ export default function Home() {
                     <div className="w-full h-full bg-white-main/60 rounded-2xl flex items-center justify-center p-6">
                       <div className="text-center">
                         <div className="w-16 h-16 rounded-2xl overflow-hidden mx-auto mb-6">
-                          <Image 
-                            src="/gng.png" 
-                            alt="GPTCH Wallet Logo" 
-                            width={64} 
-                            height={64}
-                            className="w-full h-full object-cover"
-                          />
+                                                  <Image 
+                          src="/gng.png" 
+                          alt="GNG Wallet Logo" 
+                          width={64} 
+                          height={64}
+                          className="w-full h-full object-cover"
+                        />
                         </div>
-                        <p className="text-gradient font-semibold text-lg mb-2">GPTCH Wallet</p>
+                        <p className="text-gradient font-semibold text-lg mb-2">GNG Wallet</p>
                         <p className="text-text-muted text-sm">모바일 앱</p>
                       </div>
                     </div>
