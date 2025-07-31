@@ -5,9 +5,10 @@ import { Download, Shield, Zap, Smartphone, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Home() {
-  const handleDownload = () => {
-    window.open('https://drive.google.com/file/d/10BAKAF06SL7SpGuQcoDR2tRLciHr3aiC/view?usp=sharing', '_blank')
-  }
+ const handleDownload = () => {
+  window.location.href = 'https://drive.google.com/uc?export=download&id=10BAKAF06SL7SpGuQcoDR2tRLciHr3aiC';
+};
+
 
   return (
     <div className="min-h-screen relative overflow-hidden">
